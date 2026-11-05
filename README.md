@@ -70,5 +70,5 @@ The `livecheck` command detects a newer release.
 It does not update the cask.
 
 Before each release, do an installation check on a clean Mac.
-Check runtime setup, model download, microphone access, Accessibility access, and transcription.
-Check Developer ID signing and notarization before you publish a replacement for version 0.9.
+Do checks of runtime setup, model download, microphone access, Accessibility access, and transcription.
+Do checks of Developer ID signing and notarization before you publish a replacement for version 0.9.

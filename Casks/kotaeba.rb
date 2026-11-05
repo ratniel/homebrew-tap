@@ -19,10 +19,10 @@ cask "kotaeba" do
   app "KotaebaApp.app"
 
   caveats <<~EOS
-    Kotaeba requires macOS 26.2 or later.
+    macOS 26.2 or later is necessary.
     Release #{version} has no Developer ID signature or notarization ticket.
     macOS Gatekeeper rejects this release at first launch.
-    The app requires microphone access and Accessibility access.
+    Microphone access and Accessibility access are necessary.
     Complete runtime setup in the app before you start transcription.
     First use downloads Python packages and speech models.
   EOS
